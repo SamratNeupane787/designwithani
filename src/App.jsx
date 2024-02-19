@@ -11,9 +11,11 @@ import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
+  const setAlert = alert("This website is not responsive have to work on it!!");
 
   return (
     <div className=" w-full min-h-screen  text-white bg-zinc-900">
+      {setAlert}
       <Navbar />
       <LandingPage />
       <Marquee />
